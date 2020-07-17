@@ -18,52 +18,52 @@ Premisa en python todo es un objeto!
 ## Comenzando…
 Iniciar consola interactiva de python: py
 ### Operadores aritméticos
-Suma: 5 + 5
-Resta: 5 - 5
-Multiplicación: 5 * 5
-División: 10 / 5
-Cociente: 10 // 5
-Resto: 10 % 5
-Potencia: 5 ** 2
-Raíz cuadrada: se debe importar la clase math, luego ejecutar la función math.sqrt() colocado como parámetro el número al cual se desea sacar la raiz cuadrada: math.sqrt(10)
-Python respeta el orden de prioridad de las operaciones.
+* Suma: 5 + 5
+* Resta: 5 - 5
+* Multiplicación: 5 * 5
+* División: 10 / 5
+* Cociente: 10 // 5
+* Resto: 10 % 5
+* Potencia: 5 ** 2
+* Raíz cuadrada: se debe importar la clase math, luego ejecutar la función math.sqrt() colocado como parámetro el número al cual se desea sacar la raiz cuadrada: math.sqrt(10)
+* Python respeta el orden de prioridad de las operaciones.
 
-Operadores lógicos
-and: para determinar si el planteamiento se cumple o no, compara todas las variables.
-or: busca que una de las variables se cumpla para determinar si el planteamiento se cumple o no.
-not: da el valor contrario que está almacenado.
-== compara las variables, devuelve true o false.
-!= compara que los datos sean diferentes.
-> mayor que
-< menor que
->= mayor igual que
-<= menor igual que
+### Operadores lógicos
+* and: para determinar si el planteamiento se cumple o no, compara todas las variables.
+* or: busca que una de las variables se cumpla para determinar si el planteamiento se cumple o no.
+* not: da el valor contrario que está almacenado.
+* == compara las variables, devuelve true o false.
+* != compara que los datos sean diferentes.
+* > mayor que
+* < menor que
+* >= mayor igual que
+* <= menor igual que
 
 
 
-Variables
-Concepto: un caja de almacenamiento en la memoria ram para guardar algún dato necesaria para el funcionamiento del programa, este dato puede variar a lo largo del funcionamiento del programa.
-Sintaxis: no debe comenzar con número, debe tener letras minúsculas y si es necesario separar las palabras, de debe usar guion bajo, no se admite espacios. Ej válidos: mi_variable, variable50, la5variable
-Asignación de variables: 
+### Variables
+* Concepto: un caja de almacenamiento en la memoria ram para guardar algún dato necesaria para el funcionamiento del programa, este dato puede variar a lo largo del funcionamiento del programa.
+* Sintaxis: no debe comenzar con número, debe tener letras minúsculas y si es necesario separar las palabras, de debe usar guion bajo, no se admite espacios. Ej válidos: mi_variable, variable50, la5variable
+* Asignación de variables: 
 Interna: numero = 5
 Solicitando el dato al usuario: numero  = input(“Escriba un numero: ”)
 
 
-Tipo de datos
-String: son cadena de caracteres que pueden contener números letras, espacios y caracteres especiales.
-Formas de escritura:
-nombre = “Susana” 
-nombre = ‘Susana’
-Formas de lectura:
-Consola: nombre
-Editor de texto: print(nombre)
-Concatenación:
-nombre + ‘ ’ + nombre2
-Operaciones:
-nombre  + nombre 
-nombre  * 4
+### Tipo de datos
+* String: son cadena de caracteres que pueden contener números letras, espacios y caracteres especiales.
+    - Formas de escritura:
+    ´´´nombre = “Susana”´´´
+    ´´´nombre = ‘Susana’´´´
+    - Formas de lectura:
+    Consola: nombre
+    Editor de texto: ´´´print(nombre)´´´
+    - Concatenación:
+    ´´´nombre + ‘ ’ + nombre2´´´
+    - Operaciones:
+    ´´´nombre  + nombre ´´´
+    ´´´nombre  * 4´´´
 
-Número: son cadenas de números enteros o decimales, para el uso de decimales, solo basta con colocar punto para separar los decimales.
+* Número: son cadenas de números enteros o decimales, para el uso de decimales, solo basta con colocar punto para separar los decimales.
 Formas de escritura:
 numero = 5 
 numero = 5.23
