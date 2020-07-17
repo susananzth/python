@@ -8,7 +8,7 @@ Premisa en python todo es un objeto!
 
 ## Conceptos
 
- *Algoritmo: Serie de pasos de forma ordenada para resolver un problema. Los serie de pasos no son infinitos, son pasos limitado y bien definidos para llegar a un fin, no debe ser ambiguo a la hora de indicar la resolución de problemas. Se puede ordenar los algoritmos con diagrama de flujo.
+ * Algoritmo: Serie de pasos de forma ordenada para resolver un problema. Los serie de pasos no son infinitos, son pasos limitado y bien definidos para llegar a un fin, no debe ser ambiguo a la hora de indicar la resolución de problemas. Se puede ordenar los algoritmos con diagrama de flujo.
 
 ## Herramientas necesarias
 * Un editor de código: puede ser sublime, brackets, atom, phpstorm, etc.
@@ -52,7 +52,9 @@ Solicitando el dato al usuario: numero  = input(“Escriba un numero: ”)
 ### Tipo de datos
 * String: son cadena de caracteres que pueden contener números letras, espacios y caracteres especiales.
     - Formas de escritura:
-    ´´´nombre = “Susana”´´´
+    ´´´
+    nombre = “Susana”
+    ´´´
     ´´´nombre = ‘Susana’´´´
     - Formas de lectura:
     Consola: nombre
