@@ -1,12 +1,12 @@
-# Declaro la variable 'edad' donde ingreso el dato solicitado, 
-# transformándolo en entero con 'int()'.
+# Solicito la edad al usuario, transformo el dato string a entero con 'int()'.
+# Declaro la variable 'edad' donde guardo el dato solicitado.
 edad = int(input("Escribe tu edad: "))
 if edad > 17: 
     print('Eres mayor de edad')
 else:
     print('Eres menor de edad')
 
-# Otro ejemplo, esta vez utulizando elif.
+# Otro ejemplo, esta vez utilizando elif.
 numero = int(input("Escribe un numero: "))
 if numero > 5: 
     print('Es mayor a 5')
@@ -15,7 +15,7 @@ elif numero == 5:
 else:
     print('Es menor a 5')
 
-# Otro ejemplo utilizando el conversor de divisas.
+# Otro ejemplo utilizando el conversor de divisas de https://github.com/susananzth/python/blob/master/conversor.py
 
 # En la variable 'menu' guardo un string de varias líneas.
 menu = """
@@ -29,8 +29,9 @@ Bienvenido al converson de monedas 💰
 
 Elige una opción: """
 
-# Almaceno en la variable 'opcion' lo obtenido por el usuario, el mensaje que le muestro 
-# lo guardado en la variable 'menu', lo convierto en entero con 'int()'
+# Solicito una opción al usuario (el mensaje que le muestro es el almacenado en 
+# la variable 'menu'), transformo el dato string a entero con 'int()'.
+# Declaro la variable 'opcion' donde guardo el dato solicitado.
 opcion = int(input(menu))
 
 if opcion == 1:

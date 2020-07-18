@@ -122,7 +122,7 @@ Importante que se deje la indentación con 4 espacios para la correcta compilaci
         pass
     ```
 * Ejercicio de ejemplo: 
-    [condicionales.py](https://github.com/susananzth/python/blob/master/condicionales.py)
+    [condicionales.py](https://github.com/susananzth/python/blob/master/codicionales.py)
 
 ### Funciones
 Fragmentos de código que se puede llamar en diferentes partes del programa para no redundar codigo.

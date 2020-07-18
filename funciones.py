@@ -1,5 +1,5 @@
 # Declaro la funcion utilizando la palabra reservada 'def'
-# Segido del nombre de la funcion
+# Seguido del nombre de la funcion
 def imprimir_mensaje():
     print("mensaje especial")
     print("¡Estoy aprendiendo Python!")
@@ -16,7 +16,8 @@ def conversacion(mensaje):
     print(mensaje)
     print("Adios")
 
-# Almaceno en la variable 'opcion' lo obtenido por el usuario, lo convierto en entero con 'int()'
+# Solicito una opción al usuario, transformo el dato string a entero con 'int()'.
+# Declaro la variable 'opcion' donde guardo el dato solicitado.
 opcion = int(input("Elige una opción (1, 2, 3): "))
 if opcion == 1:
     # Invoco la función y entre paentesis le paso el mensaje de parámetro.
@@ -30,7 +31,7 @@ elif opcion == 3:
 else:
     print("Escribe la opción correcta")
 
-# Otro ejemplo utilizando el conversor de divisas.
+# Otro ejemplo utilizando el conversor de divisas: https://github.com/susananzth/python/blob/master/conversor.py
 def conversor (tipo_divisa, valor_dolar_hoy):
     moneda = input("¿Cuántos " + tipo_divisa + " tienes?: ")
     moneda = float(moneda)
@@ -51,8 +52,9 @@ Bienvenido al converson de monedas 💰
 
 Elige una opción: """
 
-# Almaceno en la variable 'opcion' lo obtenido por el usuario, el mensaje que le muestro 
-# lo guardado en la variable 'menu', lo convierto en entero con 'int()'
+# Solicito una opción al usuario (el mensaje que le muestro es el almacenado en 
+# la variable 'menu'), transformo el dato string a entero con 'int()'.
+# Declaro la variable 'opcion' donde guardo el dato solicitado.
 opcion = int(input(menu))
 
 if opcion == 1:
