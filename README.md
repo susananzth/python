@@ -136,3 +136,12 @@ Fragmentos de código que se puede llamar en diferentes partes del programa para
     ```
 * Ejercicio de ejemplo:
     [funciones.py](https://github.com/susananzth/python/blob/master/funciones.py)
+
+### Métodos
+Son funciones para determinados objetos
+* Sintaxis:
+    ```
+    objeto.nombre_metodo()
+    ```
+* Ejercicio de ejemplo:
+    [metodos.py]https://github.com/susananzth/python/blob/master/metodos.py
