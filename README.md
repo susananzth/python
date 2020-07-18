@@ -51,7 +51,20 @@ Iniciar consola interactiva de python: ```py```
 
 ### Tipo de datos
 * String: son cadena de caracteres que pueden contener números letras, espacios y caracteres especiales.
-    - Formas de escritura: ```nombre = “Susana”```  ó  ```nombre = ‘Susana’```
+    - Formas de escritura: 
+        ```
+        nombre = “Susana”
+        ```
+        ```
+        nombre = ‘Susana’
+        ```
+        ```
+        texto_varias_lineas = “””
+        Este es un string de varias líneas.
+        En este texto se respetan los saltos de líneas
+        “””
+        ```
+
     - Formas de lectura:
         Consola: ```nombre```
         Editor de texto: ```print(nombre)```
