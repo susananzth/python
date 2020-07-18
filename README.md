@@ -106,13 +106,33 @@ Iniciar consola interactiva de python: ```py```
     ```
     Pasar float: ```float()```
 
-    #### Ejercicio de ejemplo:
-        [conversor.py](https://github.com/susananzth/python/blob/master/conversor.py)
+    - Ejercicio de ejemplo: [conversor.py](https://github.com/susananzth/python/blob/master/conversor.py)
 
 ### Condicionales
 
 Declarar instrucciones en caso que el curso del programa vaya a tomar más de una ruta.
 Importante que se deje la indentación con 4 espacios para la correcta compilación de las instrucciones
+* Sintaxis
+    ```
+    if condicion: 
+        pass
+    elif condicion:
+        pass
+    else:
+        pass
+    ```
+* Ejercicio de ejemplo: 
+    [condicionales.py](https://github.com/susananzth/python/blob/master/condicionales.py)
 
-    #### Ejercicio de ejemplo:
-        [condicionales.py](https://github.com/susananzth/python/blob/master/condicionales.py)
+### Funciones
+Fragmentos de código que se puede llamar en diferentes partes del programa para no redundar codigo.
+* Sintaxis
+    ```
+    # Declara la función
+    def nombre_funcion():
+        codigo de la funcion
+    # Llama a la función
+    nombre_funcion()
+    ```
+* Ejercicio de ejemplo:
+    [funciones.py](https://github.com/susananzth/python/blob/master/funciones.py)
