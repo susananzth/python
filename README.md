@@ -45,8 +45,8 @@ Iniciar consola interactiva de python: ```py```
 * Concepto: un caja de almacenamiento en la memoria ram para guardar algún dato necesaria para el funcionamiento del programa, este dato puede variar a lo largo del funcionamiento del programa.
 * Sintaxis: no debe comenzar con número, debe tener letras minúsculas y si es necesario separar las palabras, de debe usar guion bajo, no se admite espacios. Ej válidos: ```mi_variable```, ```variable50```, ```la5variable```.
 * Asignación de variables: 
-Interna: ```numero = 5```
-Solicitando el dato al usuario: ```numero  = input(“Escriba un numero: ”)```
+    - Interna: ```numero = 5```
+    - Solicitando el dato al usuario: ```numero  = input(“Escriba un numero: ”)```
 
 
 ### Tipo de datos
@@ -73,6 +73,7 @@ Solicitando el dato al usuario: ```numero  = input(“Escriba un numero: ”)```
         Editor de texto: ```print(pago_exisoto)```
 
 * Conversión de datos
+
     Pasar texto a número: ```int()```
     ```
     numero1  = ‘5’
@@ -91,3 +92,14 @@ Solicitando el dato al usuario: ```numero  = input(“Escriba un numero: ”)```
     Texto = '4';
     ```
     Pasar float: ```float()```
+
+    #### Ejercicio de ejemplo:
+        [conversor.py](https://github.com/susananzth/python/blob/master/conversor.py)
+
+### Condicionales
+
+Declarar instrucciones en caso que el curso del programa vaya a tomar más de una ruta.
+Importante que se deje la indentación con 4 espacios para la correcta compilación de las instrucciones
+
+    #### Ejercicio de ejemplo:
+        [condicionales.py](https://github.com/susananzth/python/blob/master/condicionales.py)
