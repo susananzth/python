@@ -144,4 +144,4 @@ Son funciones para determinados objetos
     objeto.nombre_metodo()
     ```
 * Ejercicio de ejemplo:
-    [metodos.py]https://github.com/susananzth/python/blob/master/metodos.py
+    [metodos.py](https://github.com/susananzth/python/blob/master/metodos.py)
