@@ -145,3 +145,31 @@ Son funciones para determinados objetos
     ```
 * Ejercicio de ejemplo:
     [metodos.py](https://github.com/susananzth/python/blob/master/metodos.py)
+
+### Slices
+Son fragmentos de string. Para obtenerlo, se le indica  la variable desde qué punto se tomará el fragmento de string.
+* Sintaxis: 
+    ```
+    variable[0:3]
+    ```
+* Ejemplo: 
+    ```
+    nombre = ‘Susana’
+	nombre[0:3]
+    ```
+    ```
+    >>> Sus
+    ```
+
+### Palíndromo
+Son palabras o frases que se leen igual al derecho y al revés.
+* Ejercicio de ejemplo: [palindromo.py](https://github.com/susananzth/python/blob/master/palindromo.py)
+
+### Bucles
+Son repeticiones de situaciones. 
+* Ejemplo de ciclo while: [bucles.py](https://github.com/susananzth/python/blob/master/bucles.py)
+* Ejemplo de ciclo for: [bucle_for.py](https://github.com/susananzth/python/blob/master/bucle_for.py)
+
+### Recorrer
+Son funciones para recorrer string
+* Ejercicio de ejemplo: [recorrer.py](https://github.com/susananzth/python/blob/master/recorrer.py) 
