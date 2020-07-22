@@ -149,6 +149,7 @@ Son funciones para determinados objetos
 ### Slices
 Son fragmentos de string. Para obtenerlo, se le indica  la variable desde qué punto se tomará el fragmento de string.
 * Sintaxis: 
+    slice(comienza, finaliza, pasos)
     ```
     variable[0:3]
     ```
@@ -173,3 +174,38 @@ Son repeticiones de situaciones.
 ### Recorrer
 Son funciones para recorrer string
 * Ejercicio de ejemplo: [recorrer.py](https://github.com/susananzth/python/blob/master/recorrer.py) 
+
+### Listas
+Son objetos que pueden contener varios valores de tipos de datos diferentes. Es un elemento mutable, puede variar y cambiarse.
+* Sintaxis: 
+    ```
+        # Declara la lista
+        variable = [1, 3, 1, 5, 9, ‘Hola’, True]
+        # Llama la lista indicando la posición del valor a mostrar.
+        variable[0]
+        #Agregar un elemento al final
+        variable.addend(False)
+        #Eliminar un elemento, indicando la posición del valor que deseo eliminar
+        variable.pop(2)
+    ```
+### Tuplas
+Son listas pero estáticas. Son inmutables, no se pueden cambiar.
+* Sintaxis: tupla = (1, 3, 5, 9, 6)
+
+### Diccionario
+Son listas pero el indice no son números por defecto del 0 al infinito, sino que se pueden colocar un nombre, a este nombre se le denomina “Llave”.
+* Sintaxis:
+    ```
+    diccionario = {
+        ‘llave1’ = 1,
+        ‘llave2’ = 2,
+        ‘llave3’ = 3,
+    }
+    ```
+* Ejercicio de ejemplo: [diccionario.py](https://github.com/susananzth/python/blob/master/diccionario.py)
+
+## Ejercicios varios
+* Prueba de primos: [prueba_primalidad.py](https://github.com/susananzth/python/blob/master/prueba_primalidad.py)
+* Juego “Adivina el número”: [adivina_el_numero.py](https://github.com/susananzth/python/blob/master/adivina_el_numero.py)
+* Generador de contraseña: [generador_contrasenas.py](https://github.com/susananzth/python/blob/master/generador_contrasenas.py)
+
